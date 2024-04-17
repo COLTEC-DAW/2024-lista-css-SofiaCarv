@@ -1,0 +1,48 @@
+body {
+    background-color: #fad9a6;
+    color: #295264;
+    width: 60%;
+    font-family: sans-serif;
+}
+
+strong, em, abbr{
+    color: #142433;
+}
+
+abbr{
+    font: small-caps;
+}
+
+a{
+    color: #89373d
+}
+
+p{
+    text-indent: 1em;
+}
+
+h1 {
+    font-size: 1.8rem;
+    text-align: center;
+
+}
+
+h2 {
+    font-size: 1.4rem;
+    text-align: center;
+
+}
+
+h3 {
+    font-size: 1.2rem;
+    text-align: center;
+
+}
+
+.summary{
+    text-align: center;
+}
+
+.main{
+    line-height: 1.5;
+}
