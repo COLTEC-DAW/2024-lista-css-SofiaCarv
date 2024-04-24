@@ -88,11 +88,12 @@ ul{
     width: 60%;
     margin-right: 35%;
     padding-right: 2%;
-    border: 1px solid #1f295c;
+    border-right: 1px solid #1f295c;
     text-align: center;
 }
 .design-selection{
     position: absolute;
-    top: 560px;
-    left: 62%
+    top: 510px;
+    left: 62%;
+    padding: 2%;
 }
