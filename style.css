@@ -21,11 +21,32 @@ abbr{
 }
 
 a{
-    color: #89373d
+    color:#c72800;
+    font-weight: bold;
+
+}
+
+a:hover{
+    color: #db8e81;
+
+}
+
+a:visited{
+    font-weight: none;
+    color: #db8e81;
 }
 
 p{
     text-indent: 1em;
+    font-size: 1rem;
+
+}
+
+.main p:first-of-type::first-letter{
+    font-size: 3rem;
+    font-family: "Bradley Hand";
+    float: left;
+
 }
 
 h1 {
@@ -96,4 +117,12 @@ ul{
     top: 510px;
     left: 62%;
     padding: 2%;
+}
+
+.design-selection li{
+    border-top: 1px solid #1f295c;
+}
+
+.design-selection li:last-child{
+    border-bottom: 1px solid #1f295c;
 }
